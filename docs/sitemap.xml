@@ -3,73 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/2017.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/posts/2017.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/2017/first-post.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/posts/2017/first-post.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/2017/local-file-test.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/posts/2017/local-file-test.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/2017/cheatsheet.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/posts/2017/cheatsheet.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories.html</loc>
-    <priority>0</priority>
+    <loc>http://amoshyc.github.io/bloguh/posts/2017/wine.html</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/cheatsheet.html</loc>
-    <lastmod>2017-12-09T13:55:37+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/local.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/markdown.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/categories.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/cheatsheet.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://amoshyc.github.io/bloguh/tags/local.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts.html</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/tags/markdown.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/%E6%B8%AC%E8%A9%A6.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/posts.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/%E7%A4%BA%E4%BE%8B.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/categories/%E6%B8%AC%E8%A9%A6.html</loc>
+    <lastmod>2017-12-09T13:55:37+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/categories/%E7%A4%BA%E4%BE%8B.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
     <priority>0</priority>
   </url>

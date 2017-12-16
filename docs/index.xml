@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Bloguh</title>
+    <link>http://amoshyc.github.io/bloguh/</link>
+    <description>Recent content on Bloguh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Dec 2017 13:55:37 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://amoshyc.github.io/bloguh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Posts</title>
-      <link>http://example.org/posts/2017/first-post.html</link>
+      <link>http://amoshyc.github.io/bloguh/posts/2017/first-post.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://example.org/posts/2017/first-post.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/posts/2017/first-post.html</guid>
       <description>First</description>
     </item>
     
     <item>
       <title>Local File test</title>
-      <link>http://example.org/posts/2017/local-file-test.html</link>
+      <link>http://amoshyc.github.io/bloguh/posts/2017/local-file-test.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://example.org/posts/2017/local-file-test.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/posts/2017/local-file-test.html</guid>
       <description> Jupyter Notebook function notebook_onload(obj) { var bg = window.getComputedStyle(document.body, null)[&#39;background-color&#39;] obj.style.height = obj.contentDocument.body.scrollHeight + &#39;px&#39;; obj.contentDocument.body.style.backgroundColor = bg; }    Image </description>
     </item>
     
     <item>
       <title>Markdown Cheatsheet</title>
-      <link>http://example.org/posts/2017/cheatsheet.html</link>
+      <link>http://amoshyc.github.io/bloguh/posts/2017/cheatsheet.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://example.org/posts/2017/cheatsheet.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/posts/2017/cheatsheet.html</guid>
       <description>Standard Markdown Inline Markup We are all in the gutters, but some of us are looking at the stars.
 我們都生活在 陰溝裡 ，但仍有人仰望 星空 。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。
 Image Code Block 使用 conda 創造一個名為 venv 的虛擬指令如下：
@@ -42,6 +42,15 @@ conda create -n tthl python=3.6 source activate tthl pip install -r requirements
 nest line
  and nested
  item another item    Table 超難寫的 Table:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://amoshyc.github.io/bloguh/posts/2017/wine.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/posts/2017/wine.html</guid>
+      <description>wine  /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
     </item>
     
   </channel>

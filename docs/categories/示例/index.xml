@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>示例 on My New Hugo Site</title>
-    <link>http://example.org/categories/%E7%A4%BA%E4%BE%8B.html</link>
-    <description>Recent content in 示例 on My New Hugo Site</description>
+    <title>示例 on Bloguh</title>
+    <link>http://amoshyc.github.io/bloguh/categories/%E7%A4%BA%E4%BE%8B.html</link>
+    <description>Recent content in 示例 on Bloguh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Dec 2017 13:55:37 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/%E7%A4%BA%E4%BE%8B/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://amoshyc.github.io/bloguh/categories/%E7%A4%BA%E4%BE%8B/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Posts</title>
-      <link>http://example.org/posts/2017/first-post.html</link>
+      <link>http://amoshyc.github.io/bloguh/posts/2017/first-post.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://example.org/posts/2017/first-post.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/posts/2017/first-post.html</guid>
       <description>First</description>
     </item>
     
     <item>
       <title>Local File test</title>
-      <link>http://example.org/posts/2017/local-file-test.html</link>
+      <link>http://amoshyc.github.io/bloguh/posts/2017/local-file-test.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://example.org/posts/2017/local-file-test.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/posts/2017/local-file-test.html</guid>
       <description> Jupyter Notebook function notebook_onload(obj) { var bg = window.getComputedStyle(document.body, null)[&#39;background-color&#39;] obj.style.height = obj.contentDocument.body.scrollHeight + &#39;px&#39;; obj.contentDocument.body.style.backgroundColor = bg; }    Image </description>
     </item>
     
     <item>
       <title>Markdown Cheatsheet</title>
-      <link>http://example.org/posts/2017/cheatsheet.html</link>
+      <link>http://amoshyc.github.io/bloguh/posts/2017/cheatsheet.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://example.org/posts/2017/cheatsheet.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/posts/2017/cheatsheet.html</guid>
       <description>Standard Markdown Inline Markup We are all in the gutters, but some of us are looking at the stars.
 我們都生活在 陰溝裡 ，但仍有人仰望 星空 。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。
 Image Code Block 使用 conda 創造一個名為 venv 的虛擬指令如下：
