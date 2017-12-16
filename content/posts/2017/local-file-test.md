@@ -8,18 +8,7 @@ toc: true
 
 # Jupyter Notebook
 
-<div class="jupyter-notebook">
-    <script defer>
-        function notebook_onload(obj) {
-            var bg = window.getComputedStyle(document.body, null)['background-color']
-            obj.style.height = obj.contentDocument.body.scrollHeight + 'px';
-            obj.contentDocument.body.style.backgroundColor = bg;
-        }
-    </script>
-    <iframe src="wine.html" scrolling="no"
-        onload="notebook_onload(this)">
-    </iframe>
-</div>
+{{< jupyter "wine.html" >}}
 
 # Image
 

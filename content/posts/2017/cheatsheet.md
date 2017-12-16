@@ -169,7 +169,7 @@ for _ in range(TC):
 
 ## Figure
 
-{{< figure src="https://i.imgur.com/KdlKPx8.jpg" title="人類衰退之後" width="400" >}}
+{{< figure src="https://i.imgur.com/KdlKPx8.jpg" title="人類衰退之後" width="800" >}}
 
 ## Youtube
 
@@ -184,11 +184,66 @@ for _ in range(TC):
 
 ## Jupyter notebook
 
+To render the notebook, First convert it to html:
+
+```
+jupyter nbconvert --to html notebook.ipynb
+```
+
+and use shortcode
+
+```
+{{</* jupyter "path/to/notebook.html" */>}}
+```
+
+{{< jupyter "notebook.html" >}}
+
 ## Admonition
+
+color can be any of valid css color or tuned color:
+
+1. red {{< colorsq "#f44336" >}}
+2. blue {{< colorsq "#64b5f6" >}}
+3. yellow {{< colorsq "#ffc107" >}}
+4. teal {{< colorsq "#009688" >}}
+
+{{% admonition title="Hint!" color="blue" %}}
+Don't panic! Don't take any wooden nickels.
+{{% /admonition %}}
+
+
+## Color Square
+
+text( {{< colorsq "#f44336" >}} )text
+
 
 ## Expansion
 
+Only 5 expansions is supported per post.
 
+{{% expansion "Click to Open" %}}
+test
+test
+test
+test
+test
+test
+{{% /expansion %}}
+
+{{% expansion expansion2 %}}
+{{< highlight python "linenos=table,linenostart=199,noclasses=false" >}}
+from pprint import pprint
+
+TC = int(input())
+for _ in range(TC):
+    cards = []
+    for i in range(5):
+        nums = [int(x) for x in input().split()]
+        cards.append(set(nums))
+
+    # pprint(cards)
+{{< / highlight >}}
+{{% /expansion %}}
 
 
 # Others

@@ -103,6 +103,7 @@
 <ul>
 <li><a href="#jupyter-notebook">Jupyter notebook</a></li>
 <li><a href="#admonition">Admonition</a></li>
+<li><a href="#color-square">Color Square</a></li>
 <li><a href="#expansion">Expansion</a></li>
 </ul></li>
 <li><a href="#others">Others</a>
@@ -326,7 +327,7 @@ continued</p>
 
 <figure >
     
-        <img src="https://i.imgur.com/KdlKPx8.jpg" width="400" />
+        <img src="https://i.imgur.com/KdlKPx8.jpg" width="800" />
     
     
     <figcaption>
@@ -355,9 +356,125 @@ continued</p>
 
 <h2 id="jupyter-notebook">Jupyter notebook</h2>
 
+<p>To render the notebook, First convert it to html:</p>
+
+<pre><code>jupyter nbconvert --to html notebook.ipynb
+</code></pre>
+
+<p>and use shortcode</p>
+
+<pre><code>{{&lt; jupyter &quot;path/to/notebook.html&quot; &gt;}}
+</code></pre>
+
+<div class="jupyter-notebook">
+    <script defer>
+        function notebook_onload(obj) {
+            var bg = window.getComputedStyle(document.body, null)['background-color']
+            obj.style.height = obj.contentDocument.body.scrollHeight + 'px';
+            obj.contentDocument.body.style.backgroundColor = bg;
+        }
+    </script>
+    
+        <iframe src="notebook.html" scrolling="no" onload="notebook_onload(this)"></iframe>
+    
+</div>
+
 <h2 id="admonition">Admonition</h2>
 
+<p>color can be any of valid css color or tuned color:</p>
+
+<ol>
+<li>red <span class="colorsq" style="background-color: #f44336;" title="#f44336"></span></li>
+<li>blue <span class="colorsq" style="background-color: #64b5f6;" title="#64b5f6"></span></li>
+<li>yellow <span class="colorsq" style="background-color: #ffc107;" title="#ffc107"></span></li>
+<li>teal <span class="colorsq" style="background-color: #009688;" title="#009688"></span></li>
+</ol>
+
+<div class="admonition">
+    
+    
+
+    
+        
+        
+    
+    
+    
+    
+        
+    
+
+    <span class="title" style="background-color: #64b5f6">
+        Hint!
+    </span>
+
+    <div class="content"><p>Don&rsquo;t panic! Don&rsquo;t take any wooden nickels.</p>
+</div>
+</div>
+
+<h2 id="color-square">Color Square</h2>
+
+<p>text( <span class="colorsq" style="background-color: #f44336;" title="#f44336"></span> )text</p>
+
 <h2 id="expansion">Expansion</h2>
+
+<p>Only 5 expansions is supported per post.</p>
+
+
+
+
+<div class="expansion">
+
+    <input id="ck1" type="checkbox">
+
+    <label id="lb1" for="ck1">
+     Click to Open 
+    </label>
+
+    <div id="in1" class="content">
+        <p>test
+test
+test
+test
+test
+test</p>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="expansion">
+
+    <input id="ck2" type="checkbox">
+
+    <label id="lb2" for="ck2">
+     expansion2 
+    </label>
+
+    <div id="in2" class="content">
+        <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt">199</span><span class="lnt">200</span><span class="lnt">201</span><span class="lnt">202</span><span class="lnt">203</span><span class="lnt">204</span><span class="lnt">205</span><span class="lnt">206</span><span class="lnt">207</span><span class="lnt">208</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+
+<span class="n">TC</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">TC</span><span class="p">):</span>
+    <span class="n">cards</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+        <span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
+        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+
+    <span class="c1"># pprint(cards)</span></code></pre></td></tr></table>
+</div>
+</div>
+
+    </div>
+
+</div>
 
 <h1 id="others">Others</h1>
 
