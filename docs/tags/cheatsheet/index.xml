@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheatsheet on My New Hugo Site</title>
+    <link>http://example.org/tags/cheatsheet.html</link>
+    <description>Recent content in Cheatsheet on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Dec 2017 13:55:37 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Cheatsheet</title>
+      <link>http://example.org/posts/2017/cheatsheet.html</link>
+      <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
+      
+      <guid>http://example.org/posts/2017/cheatsheet.html</guid>
+      <description>Standard Markdown Inline Markup We are all in the gutters, but some of us are looking at the stars.
+我們都生活在 陰溝裡 ，但仍有人仰望 星空 。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。
+Image Code Block 使用 conda 創造一個名為 venv 的虛擬指令如下：
+conda create -n tthl python=3.6 source activate tthl pip install -r requirements.txt  Block Quote  block quote block quote block quote block quote block quote block quote block continued
+nest line
+ and nested
+ item another item    Table 超難寫的 Table:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Bloguh"
+theme = "zmd"
+publishDir = "docs"
+
+uglyurls = true
+# [permalinks]
+#   posts = "/:year/:title"

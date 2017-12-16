@@ -1,0 +1,384 @@
+<html lang="tw">
+    <head>
+        <title>
+        
+    Markdown Cheatsheet | My New Hugo Site
+
+        </title>
+
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <link rel="shortcut icon" type="image/jpeg" href="/me.jpg" />
+        
+        
+        <link rel="stylesheet" href="/style.min.css">
+        <script defer src="/style.min.js"></script>
+    </head>
+
+    <body>
+        
+        <header>
+    
+    
+    <div class="icon">
+        <a href=""><img src="/me.jpg" alt="me"></a>
+    </div>
+
+    
+    <div class="name">
+        <a href="">Yu-Cheng Huang</a>
+    </div>
+
+    
+    <div class="menu">
+        <a href="">ABOUT</a>
+        <a href="">CATEGORY</a>
+        <a href="">TAG</a>
+    </div>
+
+</header>
+
+        
+        <main>
+            
+    <article>
+
+    
+    <div class="info">
+        <div class="top">
+            <span>2017/12/09</span>
+            <span>@</span>
+            <span>
+                
+                   
+                   <a href="">示例</a>
+                
+                   , 
+                   <a href="">測試</a>
+                
+            </span>
+        </div>
+
+        <h1 class="title">Markdown Cheatsheet</h1>
+
+        <div class="bottom">
+            
+                <a href="">markdown</a>
+            
+                <a href="">cheatsheet</a>
+            
+        </div>
+    </div>
+
+    
+    
+    <div class="md-content">
+        
+        
+            <div class="toc">
+                <span>TOC</span>
+                <nav id="TableOfContents">
+<ul>
+<li><a href="#standard-markdown">Standard Markdown</a>
+<ul>
+<li><a href="#inline-markup">Inline Markup</a></li>
+<li><a href="#image">Image</a></li>
+<li><a href="#code-block">Code Block</a></li>
+<li><a href="#block-quote">Block Quote</a></li>
+<li><a href="#table">Table</a></li>
+<li><a href="#hr">Hr</a></li>
+<li><a href="#list">List</a></li>
+<li><a href="#hyperlink">Hyperlink</a></li>
+</ul></li>
+<li><a href="#hugo-shortcodes">Hugo Shortcodes</a>
+<ul>
+<li><a href="#highlight">Highlight</a></li>
+<li><a href="#gists">Gists</a></li>
+<li><a href="#figure">Figure</a></li>
+<li><a href="#youtube">Youtube</a></li>
+<li><a href="#tweet">Tweet</a></li>
+</ul></li>
+<li><a href="#custom-shortcodes">Custom Shortcodes</a>
+<ul>
+<li><a href="#jupyter-notebook">Jupyter notebook</a></li>
+<li><a href="#admonition">Admonition</a></li>
+<li><a href="#expansion">Expansion</a></li>
+</ul></li>
+<li><a href="#others">Others</a>
+<ul>
+<li><a href="#latex">Latex</a></li>
+<li><a href="#asciimath">AsciiMath</a></li>
+</ul></li>
+</ul>
+</nav>
+            </div>
+        
+        
+        
+
+<h1 id="standard-markdown">Standard Markdown</h1>
+
+<h2 id="inline-markup">Inline Markup</h2>
+
+<p>We are all in the <em>gutters</em>, but <code>some</code> of us are looking at the <strong>stars</strong>.</p>
+
+<p>我們都生活在 <em>陰溝裡</em> ，但仍有人仰望 <strong>星空</strong> 。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。</p>
+
+<h2 id="image">Image</h2>
+
+<p><img src="https://i.imgur.com/QzfKyxm.jpg" alt="Fedora 26" /></p>
+
+<h2 id="code-block">Code Block</h2>
+
+<p>使用 <code>conda</code> 創造一個名為 <code>venv</code> 的虛擬指令如下：</p>
+
+<pre><code>conda create -n tthl python=3.6
+source activate tthl
+pip install -r requirements.txt
+</code></pre>
+
+<h2 id="block-quote">Block Quote</h2>
+
+<blockquote>
+<p>block quote block quote block quote block quote block quote block quote block
+continued</p>
+
+<p>nest line</p>
+
+<blockquote>
+<p>and nested</p>
+
+<ol>
+<li>item</li>
+<li>another item</li>
+</ol>
+</blockquote>
+</blockquote>
+
+<h2 id="table">Table</h2>
+
+<p>超難寫的 Table:</p>
+
+<table>
+<thead>
+<tr>
+<th>a</th>
+<th>b</th>
+<th>c</th>
+<th>d</th>
+<th>e</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="hr">Hr</h2>
+
+<p>text above hr.</p>
+
+<hr />
+
+<p>text below hr.</p>
+
+<h2 id="list">List</h2>
+
+<ul>
+<li>abc</li>
+<li>def</li>
+<li>another list
+
+<ul>
+<li>ijk</li>
+<li>lmn</li>
+</ul></li>
+<li>zmd</li>
+</ul>
+
+<ol>
+<li>x</li>
+<li>y</li>
+<li>z
+
+<ol>
+<li>s</li>
+<li>u</li>
+</ol></li>
+<li>b</li>
+</ol>
+
+<h2 id="hyperlink">Hyperlink</h2>
+
+<p>This is <a href="http://example.com/" title="Title">an example</a> inline link.
+<a href="http://example.net/">This link</a> has no title attribute.</p>
+
+<h1 id="hugo-shortcodes">Hugo Shortcodes</h1>
+
+<h2 id="highlight">Highlight</h2>
+
+<p>Inline Highlights:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="ln">199</span><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="ln">200</span>
+<span class="ln">201</span><span class="n">TC</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="ln">202</span><span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">TC</span><span class="p">):</span>
+<span class="ln">203</span>    <span class="n">cards</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="ln">204</span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+<span class="ln">205</span>        <span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
+<span class="hl"><span class="ln">206</span>        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+</span><span class="ln">207</span>
+<span class="ln">208</span>    <span class="c1"># pprint(cards)</span>
+<span class="ln">209</span>
+<span class="ln">210</span>    <span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="ln">211</span>    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+<span class="ln">212</span>        <span class="n">inp</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">1</span><span class="p">:]</span>
+<span class="hl"><span class="ln">213</span>        <span class="n">selects</span> <span class="o">=</span> <span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;A&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">inp</span><span class="p">]</span>
+</span><span class="hl"><span class="ln">214</span>        <span class="n">result</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">33</span><span class="p">))</span>
+</span><span class="hl"><span class="ln">215</span>        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">cards</span><span class="p">):</span>
+</span><span class="ln">216</span>            <span class="k">if</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">selects</span><span class="p">:</span>
+<span class="ln">217</span>                <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">&amp;</span> <span class="n">c</span>
+<span class="ln">218</span>            <span class="k">else</span><span class="p">:</span>
+<span class="ln">219</span>                <span class="n">complement</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">33</span><span class="p">))</span> <span class="o">-</span> <span class="n">c</span>
+<span class="ln">220</span>                <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">&amp;</span> <span class="n">complement</span>
+<span class="ln">221</span>        
+<span class="ln">222</span>        <span class="c1"># print(inp, result)</span>
+<span class="ln">223</span>        <span class="n">result</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+<span class="ln">224</span>        
+<span class="ln">225</span>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<span class="ln">226</span>            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;Impossible!&#39;</span><span class="p">)</span>
+<span class="ln">227</span>        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
+<span class="ln">228</span>            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;I don&#39;t know!&#34;</span><span class="p">)</span>
+<span class="ln">229</span>        <span class="k">else</span><span class="p">:</span>
+<span class="ln">230</span>            <span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span></code></pre></div>
+
+<p>Table Highlights:</p>
+
+<p><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt">199</span><span class="lnt">200</span><span class="lnt">201</span><span class="lnt">202</span><span class="lnt">203</span><span class="lnt">204</span><span class="lnt">205</span><span class="lnt">206</span><span class="lnt">207</span><span class="lnt">208</span><span class="lnt">209</span><span class="lnt">210</span><span class="lnt">211</span><span class="lnt">212</span><span class="lnt">213</span><span class="lnt">214</span><span class="lnt">215</span><span class="lnt">216</span><span class="lnt">217</span><span class="lnt">218</span><span class="lnt">219</span><span class="lnt">220</span><span class="lnt">221</span><span class="lnt">222</span><span class="lnt">223</span><span class="lnt">224</span><span class="lnt">225</span><span class="lnt">226</span><span class="lnt">227</span><span class="lnt">228</span><span class="lnt">229</span><span class="lnt">230</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+
+<span class="n">TC</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">TC</span><span class="p">):</span>
+    <span class="n">cards</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+        <span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
+        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+
+    <span class="c1"># pprint(cards)</span>
+
+    <span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+        <span class="n">inp</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">1</span><span class="p">:]</span>
+        <span class="n">selects</span> <span class="o">=</span> <span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;A&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">inp</span><span class="p">]</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">33</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">cards</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">selects</span><span class="p">:</span>
+                <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">&amp;</span> <span class="n">c</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">complement</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">33</span><span class="p">))</span> <span class="o">-</span> <span class="n">c</span>
+                <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">&amp;</span> <span class="n">complement</span>
+        
+        <span class="c1"># print(inp, result)</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+        
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;Impossible!&#39;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;I don&#39;t know!&#34;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span></code></pre></td></tr></table>
+</div>
+</div></p>
+
+<h2 id="gists">Gists</h2>
+
+<p><script src="//gist.github.com/spf13/7896402.js"></script></p>
+
+<h2 id="figure">Figure</h2>
+
+
+<figure >
+    
+        <img src="https://i.imgur.com/KdlKPx8.jpg" width="400" />
+    
+    
+    <figcaption>
+        <h4>人類衰退之後</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h2 id="youtube">Youtube</h2>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/_J73EqmpZ7k" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
+<h2 id="tweet">Tweet</h2>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + <a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify</a> _redirects etc. file support<a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&amp;ref_src=twsrc%5Etfw">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> <a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13</a> <a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h1 id="custom-shortcodes">Custom Shortcodes</h1>
+
+<h2 id="jupyter-notebook">Jupyter notebook</h2>
+
+<h2 id="admonition">Admonition</h2>
+
+<h2 id="expansion">Expansion</h2>
+
+<h1 id="others">Others</h1>
+
+<h2 id="latex">Latex</h2>
+
+<h2 id="asciimath">AsciiMath</h2>
+
+    </div>
+
+</article>
+
+        </main>
+
+        
+        <footer>
+    <div class="hr"></div>
+    <p>
+        Powered by <a href="https://gohugo.io/">Hugo</a> with theme
+        <a href="https://github.com/amoshyc/hugo-zmd-theme">zmd</a>
+    </p>
+</footer>
+</body>
+
+</html>
