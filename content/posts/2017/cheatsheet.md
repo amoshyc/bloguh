@@ -4,6 +4,7 @@ date: 2017-12-09T13:55:37+08:00
 categories: ["示例", "測試"]
 tags: ["markdown", "cheatsheet"]
 toc: true
+math: true
 ---
 
 
@@ -15,6 +16,8 @@ toc: true
 We are all in the *gutters*, but `some` of us are looking at the **stars**.
 
 我們都生活在 *陰溝裡* ，但仍有人仰望 **星空** 。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。
+
+Lets _do_ it
 
 ## Image
 
@@ -250,4 +253,44 @@ for _ in range(TC):
 
 ## Latex
 
+Latex code should be wrapped in `$[` and `]$`.
+
+```
+$[ x = \frac{-b \pm \sqrt{c^2 - 4ac}}{2a} ]$
+```
+produces $[ x = \frac{-b \pm \sqrt{c^2 - 4ac}}{2a} ]$
+
+```
+<div>$[
+    N_1 \\
+    N_2
+]$</div>
+```
+produces
+
+<div>$[
+    N_1 \\
+    N_2
+]$</div>
+
 ## AsciiMath
+
+AsciiMath code should be wrappedn in `$$` and `$$`.
+
+```
+$$ x = (-b +- sqrt(c^2 - 4ac)) / (2a) $$
+```
+produces $$ x = (-b +- sqrt(c^2 - 4ac)) / (2a) $$
+
+```
+{{</* am */>}}
+"abc"
+abc
+{{</* /am */>}}
+```
+produces
+
+{{< am >}}
+"abc"
+abc
+{{< /am >}}
