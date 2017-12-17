@@ -253,7 +253,8 @@ for _ in range(TC):
 
 ## Latex
 
-Latex code should be wrapped in `$[` and `]$`.
+Inline Latex code should be wrapped in `$[` and `]$`.
+Block Latex code in `$[[` and `]]$`.
 
 ```
 $[ x = \frac{-b \pm \sqrt{c^2 - 4ac}}{2a} ]$
@@ -261,21 +262,22 @@ $[ x = \frac{-b \pm \sqrt{c^2 - 4ac}}{2a} ]$
 produces $[ x = \frac{-b \pm \sqrt{c^2 - 4ac}}{2a} ]$
 
 ```
-<div>$[
+<div>$[[
     N_1 \\
     N_2
-]$</div>
+]]$</div>
 ```
 produces
 
-<div>$[
+<div>$[[
     N_1 \\
     N_2
-]$</div>
+]]$</div>
 
 ## AsciiMath
 
-AsciiMath code should be wrappedn in `$$` and `$$`.
+Inline AsciiMath code should be wrappedn in `$$` and `$$`.
+Block AsciiMath code in `{{</* am */>}}` short code.
 
 ```
 $$ x = (-b +- sqrt(c^2 - 4ac)) / (2a) $$
