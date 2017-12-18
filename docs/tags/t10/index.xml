@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T10 on Bloguh</title>
+    <link>http://amoshyc.github.io/bloguh/tags/t10.html</link>
+    <description>Recent content in T10 on Bloguh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Nov 2017 13:55:37 +0800</lastBuildDate>
+    
+	<atom:link href="http://amoshyc.github.io/bloguh/tags/t10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post #10: vnlxc</title>
+      <link>http://amoshyc.github.io/bloguh/posts/test/post_10.html</link>
+      <pubDate>Fri, 10 Nov 2017 13:55:37 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/posts/test/post_10.html</guid>
+      <description>text</description>
+    </item>
+    
+  </channel>
+</rss>

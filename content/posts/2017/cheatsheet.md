@@ -201,6 +201,7 @@ and use shortcode
 
 {{< jupyter "notebook.html" >}}
 
+
 ## Admonition
 
 color can be any of valid css color or tuned color:
@@ -222,7 +223,7 @@ text( {{< colorsq "#f44336" >}} )text
 
 ## Expansion
 
-Only 5 expansions is supported per post.
+Only 8 expansions are supported per post.
 
 {{% expansion "Click to Open" %}}
 test
