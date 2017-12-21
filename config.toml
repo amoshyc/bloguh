@@ -4,6 +4,8 @@ title = "Bloguh"
 theme = "zmd"
 publishDir = "docs"
 
+FootnoteReturnLinkContents = "↩"
+
 uglyurls = true
 # [permalinks]
 #   posts = "/:year/:title"

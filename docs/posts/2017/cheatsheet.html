@@ -63,15 +63,15 @@
     
     <div class="info">
         <div class="top">
-            <span>2017/12/09</span>
+            <span title="Date">2017/12/09</span>
             <span>@</span>
             <span>
                 
                    
-                   <a href="">示例</a>
+                   <a href="http://amoshyc.github.io/bloguh//categories/%e7%a4%ba%e4%be%8b.html">示例</a>
                 
                    , 
-                   <a href="">測試</a>
+                   <a href="http://amoshyc.github.io/bloguh//categories/%e6%b8%ac%e8%a9%a6.html">測試</a>
                 
             </span>
         </div>
@@ -80,9 +80,9 @@
 
         <div class="bottom">
             
-                <a href="">markdown</a>
+                <a href="http://amoshyc.github.io/bloguh//tags/markdown.html">markdown</a>
             
-                <a href="">cheatsheet</a>
+                <a href="http://amoshyc.github.io/bloguh//tags/cheatsheet.html">cheatsheet</a>
             
         </div>
     </div>
@@ -142,6 +142,8 @@
 
 <p>我們都生活在 <em>陰溝裡</em> ，但仍有人仰望 <strong>星空</strong> 。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。</p>
 
+<p>footnotes<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup><sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup>.</p>
+
 <p>Lets <em>do</em> it</p>
 
 <h2 id="image">Image</h2>
@@ -155,6 +157,7 @@
 <pre><code>conda create -n tthl python=3.6
 source activate tthl
 pip install -r requirements.txt
+llllllllllllllllllllllllllllllllllllllllllllllllllllllongggggggggggggggggg
 </code></pre>
 
 <h2 id="block-quote">Block Quote</h2>
@@ -402,14 +405,29 @@ continued</p>
 
 <h2 id="admonition">Admonition</h2>
 
-<p>color can be any of valid css color or tuned color:</p>
+<p>color can be any of valid css color or tuned colors:</p>
 
-<ol>
-<li>red <span class="colorsq" style="background-color: #f44336;" title="#f44336"></span></li>
-<li>blue <span class="colorsq" style="background-color: #64b5f6;" title="#64b5f6"></span></li>
-<li>yellow <span class="colorsq" style="background-color: #ffc107;" title="#ffc107"></span></li>
-<li>teal <span class="colorsq" style="background-color: #009688;" title="#009688"></span></li>
-</ol>
+<div class="admonition">
+    
+    
+
+    
+        
+        
+    
+    
+    
+    
+        
+    
+
+    <span class="title" style="background-color: #f44336">
+        Warning!
+    </span>
+
+    <div class="content"><p>Don&rsquo;t panic! Don&rsquo;t take any wooden nickels.</p>
+</div>
+</div>
 
 <div class="admonition">
     
@@ -433,9 +451,53 @@ continued</p>
 </div>
 </div>
 
+<div class="admonition">
+    
+    
+
+    
+        
+        
+    
+    
+    
+    
+        
+    
+
+    <span class="title" style="background-color: #ffc107">
+        title1
+    </span>
+
+    <div class="content"><p>Don&rsquo;t panic! Don&rsquo;t take any wooden nickels.</p>
+</div>
+</div>
+
+<div class="admonition">
+    
+    
+
+    
+        
+        
+    
+    
+    
+    
+        
+    
+
+    <span class="title" style="background-color: #009688">
+        title2
+    </span>
+
+    <div class="content"><p>Don&rsquo;t panic! Don&rsquo;t take any wooden nickels.</p>
+</div>
+</div>
+
 <h2 id="color-square">Color Square</h2>
 
-<p>text( <span class="colorsq" style="background-color: #f44336;" title="#f44336"></span> )text</p>
+<p>You can use this to show some colors <span class="colorsq" style="background-color: #f44336;" title="#f44336"></span>.</p>
 
 <h2 id="expansion">Expansion</h2>
 
@@ -446,13 +508,13 @@ continued</p>
 
 <div class="expansion">
 
-    <input id="ck1" type="checkbox">
+    <input id="ck2" type="checkbox">
 
-    <label id="lb1" for="ck1">
+    <label id="lb2" for="ck2">
      Click to Open 
     </label>
 
-    <div id="in1" class="content">
+    <div id="in2" class="content">
         <p>test
 test
 test
@@ -469,13 +531,13 @@ test</p>
 
 <div class="expansion">
 
-    <input id="ck2" type="checkbox">
+    <input id="ck1" type="checkbox">
 
-    <label id="lb2" for="ck2">
+    <label id="lb1" for="ck1">
      expansion2 
     </label>
 
-    <div id="in2" class="content">
+    <div id="in1" class="content">
         <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt">199</span><span class="lnt">200</span><span class="lnt">201</span><span class="lnt">202</span><span class="lnt">203</span><span class="lnt">204</span><span class="lnt">205</span><span class="lnt">206</span><span class="lnt">207</span><span class="lnt">208</span></code></pre></td>
@@ -557,6 +619,17 @@ N_1
         
     
 </div>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">abc
+ <a class="footnote-return" href="#fnref:1">↩</a></li>
+<li id="fn:2"><a href="https://example.org/">https://example.org/</a>
+ <a class="footnote-return" href="#fnref:2">↩</a></li>
+</ol>
+</div>
 
     </div>
 
@@ -596,6 +669,11 @@ N_1
         <a href="https://github.com/amoshyc/hugo-zmd-theme">zmd</a>
     </p>
 </footer>
+
+        
+        <div class="fab" title="Go to Top">
+    <a class=scroll href="#">#Top</a>
+</div>
 </body>
 
 </html>

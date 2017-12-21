@@ -19,11 +19,11 @@
       <guid>http://amoshyc.github.io/bloguh/posts/2017/cheatsheet.html</guid>
       <description>Standard Markdown Inline Markup We are all in the gutters, but some of us are looking at the stars.
 我們都生活在 陰溝裡 ，但仍有人仰望 星空 。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。
+footnotes12.
 Lets do it
 Image Code Block 使用 conda 創造一個名為 venv 的虛擬指令如下：
-conda create -n tthl python=3.6 source activate tthl pip install -r requirements.txt  Block Quote  block quote block quote block quote block quote block quote block quote block continued
-nest line
- and nested</description>
+conda create -n tthl python=3.6 source activate tthl pip install -r requirements.txt llllllllllllllllllllllllllllllllllllllllllllllllllllllongggggggggggggggggg  Block Quote  block quote block quote block quote block quote block quote block quote block continued
+nest line</description>
     </item>
     
     <item>

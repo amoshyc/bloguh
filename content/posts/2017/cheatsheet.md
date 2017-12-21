@@ -17,7 +17,12 @@ We are all in the *gutters*, but `some` of us are looking at the **stars**.
 
 我們都生活在 *陰溝裡* ，但仍有人仰望 **星空** 。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。
 
+footnotes[^1][^2].
+
 Lets _do_ it
+
+[^1]: abc
+[^2]: https://example.org/
 
 ## Image
 
@@ -32,6 +37,7 @@ Lets _do_ it
 conda create -n tthl python=3.6
 source activate tthl
 pip install -r requirements.txt
+llllllllllllllllllllllllllllllllllllllllllllllllllllllongggggggggggggggggg
 ```
 
 ## Block Quote
@@ -204,21 +210,27 @@ and use shortcode
 
 ## Admonition
 
-color can be any of valid css color or tuned color:
+color can be any of valid css color or tuned colors:
 
-1. red {{< colorsq "#f44336" >}}
-2. blue {{< colorsq "#64b5f6" >}}
-3. yellow {{< colorsq "#ffc107" >}}
-4. teal {{< colorsq "#009688" >}}
+{{% admonition title="Warning!" color="red" %}}
+Don't panic! Don't take any wooden nickels.
+{{% /admonition %}}
 
 {{% admonition title="Hint!" color="blue" %}}
 Don't panic! Don't take any wooden nickels.
 {{% /admonition %}}
 
+{{% admonition title="title1" color="yellow" %}}
+Don't panic! Don't take any wooden nickels.
+{{% /admonition %}}
+
+{{% admonition title="title2" color="teal" %}}
+Don't panic! Don't take any wooden nickels.
+{{% /admonition %}}
 
 ## Color Square
 
-text( {{< colorsq "#f44336" >}} )text
+You can use this to show some colors {{< colorsq "#f44336" >}}.
 
 
 ## Expansion
