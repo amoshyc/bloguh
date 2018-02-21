@@ -178,7 +178,8 @@ for _ in range(TC):
 
 ## Figure
 
-{{< figure src="https://i.imgur.com/KdlKPx8.jpg" title="人類衰退之後" width="800" >}}
+<!-- {{< figure src="https://i.imgur.com/KdlKPx8.jpg" title="人類衰退之後" width="800" >}} -->
+{{< figure src="./test.png" title="人類衰退之後" width="800" >}}
 
 ## Youtube
 
