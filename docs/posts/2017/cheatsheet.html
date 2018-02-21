@@ -104,8 +104,11 @@
 <li><a href="#block-quote">Block Quote</a></li>
 <li><a href="#table">Table</a></li>
 <li><a href="#hr">Hr</a></li>
-<li><a href="#list">List</a></li>
-<li><a href="#hyperlink">Hyperlink</a></li>
+<li><a href="#list">List</a>
+<ul>
+<li><a href="#unordered-list">Unordered List</a></li>
+<li><a href="#ordered-list">Ordered List</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#hugo-shortcodes">Hugo Shortcodes</a>
 <ul>
@@ -117,12 +120,12 @@
 </ul></li>
 <li><a href="#custom-shortcodes">Custom Shortcodes</a>
 <ul>
-<li><a href="#jupyter-notebook">Jupyter notebook</a></li>
+<li><a href="#jupyter-notebook">Jupyter Notebook</a></li>
 <li><a href="#admonition">Admonition</a></li>
 <li><a href="#color-square">Color Square</a></li>
 <li><a href="#expansion">Expansion</a></li>
 </ul></li>
-<li><a href="#others">Others</a>
+<li><a href="#math-formula">Math Formula</a>
 <ul>
 <li><a href="#latex">Latex</a></li>
 <li><a href="#asciimath">AsciiMath</a></li>
@@ -138,49 +141,50 @@
 
 <h2 id="inline-markup">Inline Markup</h2>
 
-<p>We are all in the <em>gutters</em>, but <code>some</code> of us are looking at the <strong>stars</strong>.</p>
+<p>常見的 Markdown 行內標記包含<strong>粗體</strong>、<em>斜體</em> 、<del>刪除</del>、<code>程式碼</code>、Footnote<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup> 與<a href="https://example.org/" title="tooltip">超連結</a>。他們使用方法分別為：</p>
 
-<p>我們都生活在 <em>陰溝裡</em> ，但仍有人仰望 <strong>星空</strong> 。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。長度試試。</p>
+<ul>
+<li><strong>粗體</strong> ：<code>**粗體**</code> 或 <code>__粗體__</code>。</li>
+<li><em>斜體</em> ：<code>*斜體*</code> 或 <code>_斜體_</code>。</li>
+<li><del>刪除</del> ：<code>~~刪除~~</code>。</li>
+<li><code>程式碼</code> ：將內容用 ` 包起來。</li>
+<li><sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>：<code>[^id]</code>，其連結的位置為 <code>[^id]: xxx</code>。</li>
+<li><a href="https://example.org/">超連結</a>：<code>[text](link “tooltip&quot;)</code>，<code>&quot;tooltip&quot;</code> 可以不寫。</li>
+</ul>
 
-<p>footnotes<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup><sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup>.</p>
-
-<p>Lets <em>do</em> it</p>
+<p>其中要注意的是斜體後面得有空白，造成中文書寫時會有多餘空白，因此書寫中文時建議使用粗體代替。在這個 theme 中，<strong>所有</strong>的換行都會被保留，這有別於其他 theme，我認為這樣的書寫比較符合我自己的習慣。如果使用本 theme，建議將你的編輯器調成 wrap line 的模式。</p>
 
 <h2 id="image">Image</h2>
 
 <p><img src="https://i.imgur.com/QzfKyxm.jpg" alt="Fedora 26" /></p>
 
+<pre><code>![Fedora 26](https://i.imgur.com/QzfKyxm.jpg)
+</code></pre>
+
+<p>這種圖片寬度固定為 theme 的寬度（預設是 700px）。</p>
+
 <h2 id="code-block">Code Block</h2>
 
-<p>使用 <code>conda</code> 創造一個名為 <code>venv</code> 的虛擬指令如下：</p>
+<p>Code Block 一般用來放置一些簡短的、<strong>不需要</strong>顏色渲染的程式碼，例如在 conda 中創造一個虛擬環境的指令為：</p>
 
-<pre><code>conda create -n tthl python=3.6
-source activate tthl
-pip install -r requirements.txt
-llllllllllllllllllllllllllllllllllllllllllllllllllllllongggggggggggggggggg
+<pre><code>conda create -n venv python=3.6
+source activate venv
 </code></pre>
 
 <h2 id="block-quote">Block Quote</h2>
 
 <blockquote>
-<p>block quote block quote block quote block quote block quote block quote block
-continued</p>
-
-<p>nest line</p>
+<p>Block Quote 一般用來放要強調的東西。
+也可以用來放詩詞等。</p>
 
 <blockquote>
-<p>and nested</p>
-
-<ol>
-<li>item</li>
-<li>another item</li>
-</ol>
+<p>它可以巢狀使用，但很少用到。也可以包含其他東西，像是 List:
+1. list item 1
+2. list item 2</p>
 </blockquote>
 </blockquote>
 
 <h2 id="table">Table</h2>
-
-<p>超難寫的 Table:</p>
 
 <table>
 <thead>
@@ -222,147 +226,105 @@ continued</p>
 
 <h2 id="hr">Hr</h2>
 
-<p>text above hr.</p>
+<p>分隔線之前的文字</p>
 
 <hr />
 
-<p>text below hr.</p>
+<p>分隔線之後的文字</p>
 
 <h2 id="list">List</h2>
 
+<h3 id="unordered-list">Unordered List</h3>
+
 <ul>
-<li>abc</li>
-<li>def</li>
+<li>第 1 級</li>
+<li>第 1 級</li>
 <li>another list
 
 <ul>
-<li>ijk</li>
-<li>lmn</li>
+<li>第 2 級</li>
+<li>第 2 級</li>
 </ul></li>
-<li>zmd</li>
+<li>第 1 級</li>
 </ul>
 
-<ol>
-<li>x</li>
-<li>y</li>
-<li>z
+<h3 id="ordered-list">Ordered List</h3>
 
 <ol>
-<li>s</li>
-<li>u</li>
+<li>第 1 級</li>
+<li>第 1 級</li>
+<li>another list
+
+<ol>
+<li>第 2 級</li>
+<li>第 2 級</li>
 </ol></li>
-<li>b</li>
+<li>第 1 級</li>
 </ol>
-
-<h2 id="hyperlink">Hyperlink</h2>
-
-<p>This is <a href="http://example.com/" title="Title">an example</a> inline link.
-<a href="http://example.net/">This link</a> has no title attribute.</p>
 
 <h1 id="hugo-shortcodes">Hugo Shortcodes</h1>
 
 <h2 id="highlight">Highlight</h2>
 
-<p>Inline Highlights:</p>
+<p>用來顯示顏色渲染的程式碼，可以指定：</p>
 
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="ln">199</span><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
-<span class="ln">200</span>
-<span class="ln">201</span><span class="n">TC</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
-<span class="ln">202</span><span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">TC</span><span class="p">):</span>
-<span class="ln">203</span>    <span class="n">cards</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="ln">204</span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
-<span class="ln">205</span>        <span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
-<span class="hl"><span class="ln">206</span>        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
-</span><span class="ln">207</span>
-<span class="ln">208</span>    <span class="c1"># pprint(cards)</span>
-<span class="ln">209</span>
-<span class="ln">210</span>    <span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
-<span class="ln">211</span>    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
-<span class="ln">212</span>        <span class="n">inp</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">1</span><span class="p">:]</span>
-<span class="hl"><span class="ln">213</span>        <span class="n">selects</span> <span class="o">=</span> <span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;A&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">inp</span><span class="p">]</span>
-</span><span class="hl"><span class="ln">214</span>        <span class="n">result</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">33</span><span class="p">))</span>
-</span><span class="hl"><span class="ln">215</span>        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">cards</span><span class="p">):</span>
-</span><span class="ln">216</span>            <span class="k">if</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">selects</span><span class="p">:</span>
-<span class="ln">217</span>                <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">&amp;</span> <span class="n">c</span>
-<span class="ln">218</span>            <span class="k">else</span><span class="p">:</span>
-<span class="ln">219</span>                <span class="n">complement</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">33</span><span class="p">))</span> <span class="o">-</span> <span class="n">c</span>
-<span class="ln">220</span>                <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">&amp;</span> <span class="n">complement</span>
-<span class="ln">221</span>        
-<span class="ln">222</span>        <span class="c1"># print(inp, result)</span>
-<span class="ln">223</span>        <span class="n">result</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-<span class="ln">224</span>        
-<span class="ln">225</span>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-<span class="ln">226</span>            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;Impossible!&#39;</span><span class="p">)</span>
-<span class="ln">227</span>        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
-<span class="ln">228</span>            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;I don&#39;t know!&#34;</span><span class="p">)</span>
-<span class="ln">229</span>        <span class="k">else</span><span class="p">:</span>
-<span class="ln">230</span>            <span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span></code></pre></div>
+<ol>
+<li>顯示行號或模式</li>
+<li>加亮顯示哪些行</li>
+<li>行數起始值</li>
+</ol>
 
-<p>Table Highlights:</p>
+<p>無行號模式：</p>
 
-<p><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt">199</span><span class="lnt">200</span><span class="lnt">201</span><span class="lnt">202</span><span class="lnt">203</span><span class="lnt">204</span><span class="lnt">205</span><span class="lnt">206</span><span class="lnt">207</span><span class="lnt">208</span><span class="lnt">209</span><span class="lnt">210</span><span class="lnt">211</span><span class="lnt">212</span><span class="lnt">213</span><span class="lnt">214</span><span class="lnt">215</span><span class="lnt">216</span><span class="lnt">217</span><span class="lnt">218</span><span class="lnt">219</span><span class="lnt">220</span><span class="lnt">221</span><span class="lnt">222</span><span class="lnt">223</span><span class="lnt">224</span><span class="lnt">225</span><span class="lnt">226</span><span class="lnt">227</span><span class="lnt">228</span><span class="lnt">229</span><span class="lnt">230</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
 
 <span class="n">TC</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
 <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">TC</span><span class="p">):</span>
     <span class="n">cards</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
         <span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
-        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span></code></pre></div>
 
-    <span class="c1"># pprint(cards)</span>
+<p>Inline 模式，方便觀看（尤其在手機上），但不適合複製程式碼（選取時會選到行號）：</p>
 
-    <span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
-    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
-        <span class="n">inp</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">1</span><span class="p">:]</span>
-        <span class="n">selects</span> <span class="o">=</span> <span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;A&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">inp</span><span class="p">]</span>
-        <span class="n">result</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">33</span><span class="p">))</span>
-        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">cards</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">selects</span><span class="p">:</span>
-                <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">&amp;</span> <span class="n">c</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">complement</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">33</span><span class="p">))</span> <span class="o">-</span> <span class="n">c</span>
-                <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">&amp;</span> <span class="n">complement</span>
-        
-        <span class="c1"># print(inp, result)</span>
-        <span class="n">result</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-        
-        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;Impossible!&#39;</span><span class="p">)</span>
-        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;I don&#39;t know!&#34;</span><span class="p">)</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span></code></pre></td></tr></table>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="ln">199</span><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="ln">200</span>
+<span class="hl"><span class="ln">201</span><span class="n">TC</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+</span><span class="ln">202</span><span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">TC</span><span class="p">):</span>
+<span class="hl"><span class="ln">203</span>    <span class="n">cards</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span class="hl"><span class="ln">204</span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+</span><span class="hl"><span class="ln">205</span>        <span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
+</span><span class="ln">206</span>        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span></code></pre></div>
+
+<p>Table 模式：</p>
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt">199</span><span class="lnt">200</span><span class="hl"><span class="lnt">201</span></span><span class="lnt">202</span><span class="hl"><span class="lnt">203</span></span><span class="hl"><span class="lnt">204</span></span><span class="hl"><span class="lnt">205</span></span><span class="lnt">206</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+
+<span class="hl"><span class="n">TC</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+</span><span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">TC</span><span class="p">):</span>
+<span class="hl">    <span class="n">cards</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span class="hl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+</span><span class="hl">        <span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
+</span>        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span></code></pre></td></tr></table>
 </div>
-</div></p>
+</div>
 
 <h2 id="gists">Gists</h2>
 
-<p><script src="//gist.github.com/spf13/7896402.js"></script></p>
+<p>Hugo 內建，可以引入外部 gist：</p>
+
+<script src="//gist.github.com/spf13/7896402.js"></script>
 
 <h2 id="figure">Figure</h2>
 
-<!-- 
-<figure >
-    
-        <img src="https://i.imgur.com/KdlKPx8.jpg" width="800" />
-    
-    
-    <figcaption>
-        <h4>人類衰退之後</h4>
-        
-    </figcaption>
-    
-</figure>
- -->
-
 
 <figure >
     
-        <img src="./test.png" width="800" />
+        <img src="https://i.imgur.com/KdlKPx8.jpg" width="600" />
     
     
     <figcaption>
@@ -372,6 +334,8 @@ continued</p>
     
 </figure>
 
+
+<p>與 Image 的差別在於可以指定大小，但仍不能超出這個 theme 的寬度（預設 700px），並且可以指定圖片的 caption。</p>
 
 <h2 id="youtube">Youtube</h2>
 
@@ -389,17 +353,19 @@ continued</p>
 
 <h1 id="custom-shortcodes">Custom Shortcodes</h1>
 
-<h2 id="jupyter-notebook">Jupyter notebook</h2>
+<h2 id="jupyter-notebook">Jupyter Notebook</h2>
 
-<p>To render the notebook, First convert it to html:</p>
+<p>Jupyter Notebook 是非常常見的程式碼格式，易於分享並重現結果，在 ML 領域中大量被使用。本 theme 支援顯示 notebook，首先透過 <code>nbconvert</code> 將 notebook 轉成 html。</p>
 
 <pre><code>jupyter nbconvert --to html notebook.ipynb
 </code></pre>
 
-<p>and use shortcode</p>
+<p>然後使用 shortcode:</p>
 
 <pre><code>{{&lt; jupyter &quot;path/to/notebook.html&quot; &gt;}}
 </code></pre>
+
+<p>結果如下：</p>
 
 <div class="jupyter-notebook">
     
@@ -419,7 +385,7 @@ continued</p>
 
 <h2 id="admonition">Admonition</h2>
 
-<p>color can be any of valid css color or tuned colors:</p>
+<p>警示窗是好用的東西，可以指定標題與顏色，顏色可以為任意 css 顏色或預定義的顏色。4 個預定義顏色如下：</p>
 
 <div class="admonition">
     
@@ -439,7 +405,7 @@ continued</p>
         Warning!
     </span>
 
-    <div class="content"><p>Don&rsquo;t panic! Don&rsquo;t take any wooden nickels.</p>
+    <div class="content"><p>Don&rsquo;t panic! This is predefined color red.</p>
 </div>
 </div>
 
@@ -461,7 +427,7 @@ continued</p>
         Hint!
     </span>
 
-    <div class="content"><p>Don&rsquo;t panic! Don&rsquo;t take any wooden nickels.</p>
+    <div class="content"><p>Color blue</p>
 </div>
 </div>
 
@@ -480,10 +446,10 @@ continued</p>
     
 
     <span class="title" style="background-color: #ffc107">
-        title1
+        title
     </span>
 
-    <div class="content"><p>Don&rsquo;t panic! Don&rsquo;t take any wooden nickels.</p>
+    <div class="content"><p>Color yellow</p>
 </div>
 </div>
 
@@ -502,10 +468,10 @@ continued</p>
     
 
     <span class="title" style="background-color: #009688">
-        title2
+        中文標題
     </span>
 
-    <div class="content"><p>Don&rsquo;t panic! Don&rsquo;t take any wooden nickels.</p>
+    <div class="content"><p>Color teal</p>
 </div>
 </div>
 
@@ -515,24 +481,21 @@ continued</p>
 
 <h2 id="expansion">Expansion</h2>
 
-<p>Only 8 expansions are supported per post.</p>
+<p>用來放一些隱藏的東西，例如題解的程式碼。但每篇文只支援最多 8 個。</p>
 
 
 
 
 <div class="expansion">
 
-    <input id="ck2" type="checkbox">
+    <input id="ck1" type="checkbox">
 
-    <label id="lb2" for="ck2">
+    <label id="lb1" for="ck1">
      Click to Open 
     </label>
 
-    <div id="in2" class="content">
+    <div id="in1" class="content">
         <p>test
-test
-test
-test
 test
 test</p>
 
@@ -545,16 +508,16 @@ test</p>
 
 <div class="expansion">
 
-    <input id="ck1" type="checkbox">
+    <input id="ck2" type="checkbox">
 
-    <label id="lb1" for="ck1">
-     expansion2 
+    <label id="lb2" for="ck2">
+     程式碼 
     </label>
 
-    <div id="in1" class="content">
+    <div id="in2" class="content">
         <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt">199</span><span class="lnt">200</span><span class="lnt">201</span><span class="lnt">202</span><span class="lnt">203</span><span class="lnt">204</span><span class="lnt">205</span><span class="lnt">206</span><span class="lnt">207</span><span class="lnt">208</span></code></pre></td>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt">199</span><span class="lnt">200</span><span class="lnt">201</span><span class="lnt">202</span><span class="lnt">203</span><span class="lnt">204</span><span class="lnt">205</span><span class="lnt">206</span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
 
@@ -563,9 +526,7 @@ test</p>
     <span class="n">cards</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
         <span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
-        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
-
-    <span class="c1"># pprint(cards)</span></code></pre></td></tr></table>
+        <span class="n">cards</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span></code></pre></td></tr></table>
 </div>
 </div>
 
@@ -573,21 +534,19 @@ test</p>
 
 </div>
 
-<h1 id="others">Others</h1>
+<h1 id="math-formula">Math Formula</h1>
+
+<p>數學公式是不可少的。本 theme 支援兩種數學公式表示法：Latex &amp; Asciimath。個人建議盡量使用 Asciimath，表達不了時再轉用 Latex，因為 Asciimath 比 Latex 好寫太多了。</p>
 
 <h2 id="latex">Latex</h2>
 
 <p>Inline Latex code should be wrapped in <code>$[</code> and <code>]$</code>.
 Block Latex code in <code>{{&lt; tex &gt;}}</code> short code.</p>
 
-<pre><code>$[ x = \frac{-b \pm \sqrt{c^2 - 4ac}}{2a} ]$
-</code></pre>
-
-<p>produces $[ x = \frac{-b \pm \sqrt{c^2 - 4ac}}{2a} ]$</p>
+<p><code>$[N_1]$</code> produces $[N_1]$</p>
 
 <pre><code>{{&lt; tex &gt;}}
-N_1 \\ 
-N_2
+x = \frac{-b \pm \sqrt{c^2 - 4ac}}{2a}
 {{&lt; /tex &gt;}}
 </code></pre>
 
@@ -595,8 +554,7 @@ N_2
 
 <div>$[[
     
-N_1 \\ 
-N_2
+x = \frac{-b \pm \sqrt{c^2 - 4ac}}{2a}
 
 ]]$</div>
 
@@ -605,14 +563,10 @@ N_2
 <p>Inline AsciiMath code should be wrappedn in <code>$$</code> and <code>$$</code>.
 Block AsciiMath code in <code>{{&lt; am &gt;}}</code> short code.</p>
 
-<pre><code>$$ x = (-b +- sqrt(c^2 - 4ac)) / (2a) $$
-</code></pre>
-
-<p>produces $$ x = (-b +- sqrt(c^2 - 4ac)) / (2a) $$</p>
+<p><code>$$N_1$$</code> produces $$N_1$$ .</p>
 
 <pre><code>{{&lt; am &gt;}}
-&quot;text&quot;
-N_1
+x = (-b +- sqrt(c^2 - 4ac)) / (2a)
 {{&lt; /am &gt;}}
 </code></pre>
 
@@ -623,11 +577,7 @@ N_1
         
     
         
-            <div class="am-line" style="margin: 5px auto">$$&#34;text&#34;$$</div>
-        
-    
-        
-            <div class="am-line" style="margin: 5px auto">$$N_1$$</div>
+            <div class="am-line" style="margin: 5px auto">$$x = (-b &#43;- sqrt(c^2 - 4ac)) / (2a)$$</div>
         
     
         
@@ -638,10 +588,8 @@ N_1
 <hr />
 
 <ol>
-<li id="fn:1">abc
+<li id="fn:1"><a href="https://example.org/">https://example.org/</a>
  <a class="footnote-return" href="#fnref:1">↩</a></li>
-<li id="fn:2"><a href="https://example.org/">https://example.org/</a>
- <a class="footnote-return" href="#fnref:2">↩</a></li>
 </ol>
 </div>
 
