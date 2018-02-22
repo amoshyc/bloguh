@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://amoshyc.github.io/bloguh/2018/install-matlab-on-fedora-25.html</loc>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://amoshyc.github.io/bloguh/abouts/license.html</loc>
     <lastmod>2018-02-22T14:11:41+08:00</lastmod>
   </url>
@@ -10,11 +15,6 @@
   <url>
     <loc>http://amoshyc.github.io/bloguh/abouts/me.html</loc>
     <lastmod>2018-02-22T11:57:18+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://amoshyc.github.io/bloguh/2017/first-posts.html</loc>
-    <lastmod>2017-12-09T13:55:37+08:00</lastmod>
   </url>
   
   <url>
@@ -27,6 +27,12 @@
   </url>
   
   <url>
+    <loc>http://amoshyc.github.io/bloguh/categories/about.html</loc>
+    <lastmod>2018-02-22T14:11:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://amoshyc.github.io/bloguh/abouts.html</loc>
     <lastmod>2018-02-22T14:11:41+08:00</lastmod>
     <priority>0</priority>
@@ -34,12 +40,13 @@
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/</loc>
-    <lastmod>2018-02-22T14:11:41+08:00</lastmod>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/categories.html</loc>
+    <lastmod>2018-02-22T14:11:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -56,8 +63,26 @@
   </url>
   
   <url>
+    <loc>http://amoshyc.github.io/bloguh/categories/cheatsheet.html</loc>
+    <lastmod>2017-12-09T13:55:37+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://amoshyc.github.io/bloguh/tags/cv.html</loc>
     <lastmod>2018-02-22T11:57:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/fedora.html</loc>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/categories/fedora.html</loc>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -68,8 +93,26 @@
   </url>
   
   <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/imshow.html</loc>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://amoshyc.github.io/bloguh/tags/markdown.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/matlab.html</loc>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/categories/matlab.html</loc>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -81,13 +124,19 @@
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/posts.html</loc>
-    <lastmod>2017-12-09T13:55:37+08:00</lastmod>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/tags/python.html</loc>
     <lastmod>2018-02-22T11:57:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/r2016a.html</loc>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -99,24 +148,6 @@
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/tags/tnfsh.html</loc>
-    <lastmod>2018-02-22T11:57:18+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://amoshyc.github.io/bloguh/categories/%E6%B8%AC%E8%A9%A6.html</loc>
-    <lastmod>2017-12-09T13:55:37+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://amoshyc.github.io/bloguh/categories/%E7%A4%BA%E4%BE%8B.html</loc>
-    <lastmod>2017-12-09T13:55:37+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://amoshyc.github.io/bloguh/categories/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html</loc>
     <lastmod>2018-02-22T11:57:18+08:00</lastmod>
     <priority>0</priority>
   </url>
