@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Bloguh</title>
+    <title>Categories on Blog</title>
     <link>http://amoshyc.github.io/bloguh/categories.html</link>
-    <description>Recent content in Categories on Bloguh</description>
+    <description>Recent content in Categories on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Nov 2017 13:55:37 +0800</lastBuildDate>
@@ -296,6 +296,15 @@
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
       <guid>http://amoshyc.github.io/bloguh/categories/%E7%A4%BA%E4%BE%8B.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>自我介紹</title>
+      <link>http://amoshyc.github.io/bloguh/categories/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html</link>
+      <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/categories/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html</guid>
       <description></description>
     </item>
     

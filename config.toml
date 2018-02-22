@@ -1,11 +1,11 @@
 baseURL = "http://amoshyc.github.io/bloguh/"
 languageCode = "en-us"
-title = "Bloguh"
+title = "Blog"
 theme = "zmd"
 publishDir = "docs"
 
 FootnoteReturnLinkContents = "↩"
 
 uglyurls = true
-# [permalinks]
-#   posts = "/:year/:title"
+[permalinks]
+  posts = "/:year/:title"

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>T23 on Bloguh</title>
+    <title>T23 on Blog</title>
     <link>http://amoshyc.github.io/bloguh/tags/t23.html</link>
-    <description>Recent content in T23 on Bloguh</description>
+    <description>Recent content in T23 on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Nov 2017 13:55:37 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Post #23: dagrg</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_23.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#23-dagrg.html</link>
       <pubDate>Thu, 23 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_23.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#23-dagrg.html</guid>
       <description>text</description>
     </item>
     

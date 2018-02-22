@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>T26 on Bloguh</title>
+    <title>T26 on Blog</title>
     <link>http://amoshyc.github.io/bloguh/tags/t26.html</link>
-    <description>Recent content in T26 on Bloguh</description>
+    <description>Recent content in T26 on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Nov 2017 13:55:37 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Post #26: hzdkw</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_26.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#26-hzdkw.html</link>
       <pubDate>Sun, 26 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_26.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#26-hzdkw.html</guid>
       <description>text</description>
     </item>
     

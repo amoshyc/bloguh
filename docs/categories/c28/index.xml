@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C28 on Bloguh</title>
+    <title>C28 on Blog</title>
     <link>http://amoshyc.github.io/bloguh/categories/c28.html</link>
-    <description>Recent content in C28 on Bloguh</description>
+    <description>Recent content in C28 on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Nov 2017 13:55:37 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Post #28: aztgg</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_28.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#28-aztgg.html</link>
       <pubDate>Tue, 28 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_28.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#28-aztgg.html</guid>
       <description>text</description>
     </item>
     

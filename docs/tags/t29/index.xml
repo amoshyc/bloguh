@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>T29 on Bloguh</title>
+    <title>T29 on Blog</title>
     <link>http://amoshyc.github.io/bloguh/tags/t29.html</link>
-    <description>Recent content in T29 on Bloguh</description>
+    <description>Recent content in T29 on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Nov 2017 13:55:37 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Post #29: ljuzr</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_29.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#29-ljuzr.html</link>
       <pubDate>Wed, 29 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_29.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#29-ljuzr.html</guid>
       <description>text</description>
     </item>
     

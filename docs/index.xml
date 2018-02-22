@@ -1,40 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bloguh</title>
+    <title>Blog</title>
     <link>http://amoshyc.github.io/bloguh/</link>
-    <description>Recent content on Bloguh</description>
+    <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Dec 2017 13:55:37 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2018 14:11:41 +0800</lastBuildDate>
     
 	<atom:link href="http://amoshyc.github.io/bloguh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>License</title>
+      <link>http://amoshyc.github.io/bloguh/abouts/license.html</link>
+      <pubDate>Thu, 22 Feb 2018 14:11:41 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/abouts/license.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://amoshyc.github.io/bloguh/abouts/me.html</link>
+      <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/abouts/me.html</guid>
+      <description>關於我</description>
+    </item>
+    
+    <item>
       <title>First Posts</title>
-      <link>http://amoshyc.github.io/bloguh/posts/2017/first-post.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/first-posts.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/2017/first-post.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/first-posts.html</guid>
       <description>First</description>
     </item>
     
     <item>
       <title>Local File test</title>
-      <link>http://amoshyc.github.io/bloguh/posts/2017/local-file-test.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/local-file-test.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/2017/local-file-test.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/local-file-test.html</guid>
       <description> Jupyter Notebook function notebook_onload(obj) { var bg = window.getComputedStyle(document.body, null)[&#39;background-color&#39;] obj.style.height = obj.contentDocument.body.scrollHeight + &#39;px&#39;; obj.contentDocument.body.style.backgroundColor = bg; }    Image </description>
     </item>
     
     <item>
       <title>Markdown Cheatsheet</title>
-      <link>http://amoshyc.github.io/bloguh/posts/2017/cheatsheet.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/markdown-cheatsheet.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/2017/cheatsheet.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/markdown-cheatsheet.html</guid>
       <description>Standard Markdown Inline Markup 常見的 Markdown 行內標記包含粗體、斜體 、刪除、程式碼、Footnote1 與超連結。他們使用方法分別為：
  粗體 ：**粗體** 或 __粗體__。 斜體 ：*斜體* 或 _斜體_。 刪除 ：~~刪除~~。 程式碼 ：將內容用 ` 包起來。 1：[^id]，其連結的位置為 [^id]: xxx。 超連結：[text](link “tooltip&amp;quot;)，&amp;quot;tooltip&amp;quot; 可以不寫。  其中要注意的是斜體後面得有空白，造成中文書寫時會有多餘空白，因此書寫中文時建議使用粗體代替。在這個 theme 中，所有的換行都會被保留，這有別於其他 theme，我認為這樣的書寫比較符合我自己的習慣。如果使用本 theme，建議將你的編輯器調成 wrap line 的模式。
 Image ![Fedora 26](https://i.imgur.com/QzfKyxm.jpg)  這種圖片寬度固定為 theme 的寬度（預設是 700px）。
@@ -44,289 +62,289 @@ conda create -n venv python=3.6 source activate venv  Block Quote  Block Quote �
     
     <item>
       <title>Post #30: yryls</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_30.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#30-yryls.html</link>
       <pubDate>Thu, 30 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_30.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#30-yryls.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #29: ljuzr</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_29.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#29-ljuzr.html</link>
       <pubDate>Wed, 29 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_29.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#29-ljuzr.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #28: aztgg</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_28.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#28-aztgg.html</link>
       <pubDate>Tue, 28 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_28.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#28-aztgg.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #27: ogrub</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_27.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#27-ogrub.html</link>
       <pubDate>Mon, 27 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_27.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#27-ogrub.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #26: hzdkw</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_26.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#26-hzdkw.html</link>
       <pubDate>Sun, 26 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_26.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#26-hzdkw.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #25: oijfi</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_25.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#25-oijfi.html</link>
       <pubDate>Sat, 25 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_25.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#25-oijfi.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #24: gnhmf</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_24.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#24-gnhmf.html</link>
       <pubDate>Fri, 24 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_24.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#24-gnhmf.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #23: dagrg</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_23.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#23-dagrg.html</link>
       <pubDate>Thu, 23 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_23.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#23-dagrg.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #22: ehuby</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_22.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#22-ehuby.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_22.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#22-ehuby.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #21: vtfjw</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_21.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#21-vtfjw.html</link>
       <pubDate>Tue, 21 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_21.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#21-vtfjw.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #20: gfyot</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_20.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#20-gfyot.html</link>
       <pubDate>Mon, 20 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_20.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#20-gfyot.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #19: mzwef</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_19.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#19-mzwef.html</link>
       <pubDate>Sun, 19 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_19.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#19-mzwef.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #18: jmknr</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_18.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#18-jmknr.html</link>
       <pubDate>Sat, 18 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_18.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#18-jmknr.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #17: ewczp</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_17.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#17-ewczp.html</link>
       <pubDate>Fri, 17 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_17.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#17-ewczp.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #16: kyomo</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_16.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#16-kyomo.html</link>
       <pubDate>Thu, 16 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_16.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#16-kyomo.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #15: qkzii</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_15.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#15-qkzii.html</link>
       <pubDate>Wed, 15 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_15.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#15-qkzii.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #14: fdjnr</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_14.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#14-fdjnr.html</link>
       <pubDate>Tue, 14 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_14.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#14-fdjnr.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #13: xlzdg</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_13.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#13-xlzdg.html</link>
       <pubDate>Mon, 13 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_13.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#13-xlzdg.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #12: wbere</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_12.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#12-wbere.html</link>
       <pubDate>Sun, 12 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_12.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#12-wbere.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #11: kjvxm</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_11.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#11-kjvxm.html</link>
       <pubDate>Sat, 11 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_11.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#11-kjvxm.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #10: vnlxc</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_10.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#10-vnlxc.html</link>
       <pubDate>Fri, 10 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_10.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#10-vnlxc.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #9: bifcd</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_9.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#9-bifcd.html</link>
       <pubDate>Thu, 09 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_9.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#9-bifcd.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #8: mjxga</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_8.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#8-mjxga.html</link>
       <pubDate>Wed, 08 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_8.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#8-mjxga.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #7: loaqy</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_7.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#7-loaqy.html</link>
       <pubDate>Tue, 07 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_7.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#7-loaqy.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #6: agscc</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_6.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#6-agscc.html</link>
       <pubDate>Mon, 06 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_6.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#6-agscc.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #5: zhlts</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_5.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#5-zhlts.html</link>
       <pubDate>Sun, 05 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_5.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#5-zhlts.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #4: fnipc</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_4.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#4-fnipc.html</link>
       <pubDate>Sat, 04 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_4.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#4-fnipc.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #3: nxfzd</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_3.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#3-nxfzd.html</link>
       <pubDate>Fri, 03 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_3.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#3-nxfzd.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #2: lgaiz</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_2.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#2-lgaiz.html</link>
       <pubDate>Thu, 02 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_2.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#2-lgaiz.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title>Post #1: mxzds</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_1.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#1-mxzds.html</link>
       <pubDate>Wed, 01 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_1.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#1-mxzds.html</guid>
       <description>text</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://amoshyc.github.io/bloguh/posts/2017/notebook.html</link>
+      <link>http://amoshyc.github.io/bloguh/1.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/2017/notebook.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/1.html</guid>
       <description>temp  /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://amoshyc.github.io/bloguh/posts/2017/wine.html</link>
+      <link>http://amoshyc.github.io/bloguh/1.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/2017/wine.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/1.html</guid>
       <description>wine  /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
     </item>
     

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>T8 on Bloguh</title>
+    <title>T8 on Blog</title>
     <link>http://amoshyc.github.io/bloguh/tags/t8.html</link>
-    <description>Recent content in T8 on Bloguh</description>
+    <description>Recent content in T8 on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Nov 2017 13:55:37 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Post #8: mjxga</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_8.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#8-mjxga.html</link>
       <pubDate>Wed, 08 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_8.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#8-mjxga.html</guid>
       <description>text</description>
     </item>
     

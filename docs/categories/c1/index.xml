@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C1 on Bloguh</title>
+    <title>C1 on Blog</title>
     <link>http://amoshyc.github.io/bloguh/categories/c1.html</link>
-    <description>Recent content in C1 on Bloguh</description>
+    <description>Recent content in C1 on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Nov 2017 13:55:37 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Post #1: mxzds</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_1.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#1-mxzds.html</link>
       <pubDate>Wed, 01 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_1.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#1-mxzds.html</guid>
       <description>text</description>
     </item>
     

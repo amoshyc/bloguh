@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C21 on Bloguh</title>
+    <title>C21 on Blog</title>
     <link>http://amoshyc.github.io/bloguh/categories/c21.html</link>
-    <description>Recent content in C21 on Bloguh</description>
+    <description>Recent content in C21 on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Nov 2017 13:55:37 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Post #21: vtfjw</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_21.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#21-vtfjw.html</link>
       <pubDate>Tue, 21 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_21.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#21-vtfjw.html</guid>
       <description>text</description>
     </item>
     

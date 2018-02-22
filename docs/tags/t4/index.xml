@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>T4 on Bloguh</title>
+    <title>T4 on Blog</title>
     <link>http://amoshyc.github.io/bloguh/tags/t4.html</link>
-    <description>Recent content in T4 on Bloguh</description>
+    <description>Recent content in T4 on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Nov 2017 13:55:37 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Post #4: fnipc</title>
-      <link>http://amoshyc.github.io/bloguh/posts/test/post_4.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/post-#4-fnipc.html</link>
       <pubDate>Sat, 04 Nov 2017 13:55:37 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/posts/test/post_4.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/post-#4-fnipc.html</guid>
       <description>text</description>
     </item>
     
