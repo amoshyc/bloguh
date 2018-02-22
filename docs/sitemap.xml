@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://amoshyc.github.io/bloguh/2017/sending-gmail-in-python.html</loc>
+    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://amoshyc.github.io/bloguh/2018/install-matlab-on-fedora-25.html</loc>
     <lastmod>2018-02-22T14:48:22+08:00</lastmod>
   </url>
@@ -28,7 +33,7 @@
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/2017.html</loc>
-    <lastmod>2017-12-09T13:55:37+08:00</lastmod>
+    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -52,19 +57,25 @@
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/</loc>
-    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://amoshyc.github.io/bloguh/categories.html</loc>
-    <lastmod>2018-02-22T14:11:41+08:00</lastmod>
+    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/tags/ccu.html</loc>
     <lastmod>2018-02-22T11:57:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/cv.html</loc>
+    <lastmod>2018-02-22T11:57:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/categories.html</loc>
+    <lastmod>2018-02-22T14:11:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -81,8 +92,8 @@
   </url>
   
   <url>
-    <loc>http://amoshyc.github.io/bloguh/tags/cv.html</loc>
-    <lastmod>2018-02-22T11:57:18+08:00</lastmod>
+    <loc>http://amoshyc.github.io/bloguh/tags/email.html</loc>
+    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -101,6 +112,12 @@
   <url>
     <loc>http://amoshyc.github.io/bloguh/tags/github.html</loc>
     <lastmod>2018-02-22T11:57:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/gmail.html</loc>
+    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -141,19 +158,43 @@
   </url>
   
   <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/python.html</loc>
+    <lastmod>2018-02-22T11:57:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/categories/python.html</loc>
+    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://amoshyc.github.io/bloguh/tags/r2016a.html</loc>
     <lastmod>2018-02-22T14:48:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://amoshyc.github.io/bloguh/tags.html</loc>
-    <lastmod>2018-02-22T11:57:18+08:00</lastmod>
+    <loc>http://amoshyc.github.io/bloguh/tags/smtp.html</loc>
+    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/smtplib.html</loc>
+    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/tags/tnfsh.html</loc>
+    <lastmod>2018-02-22T11:57:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags.html</loc>
     <lastmod>2018-02-22T11:57:18+08:00</lastmod>
     <priority>0</priority>
   </url>

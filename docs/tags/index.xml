@@ -12,11 +12,20 @@
     
     
     <item>
-      <title>Ccu</title>
+      <title>CCU</title>
       <link>http://amoshyc.github.io/bloguh/tags/ccu.html</link>
       <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
       
       <guid>http://amoshyc.github.io/bloguh/tags/ccu.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>http://amoshyc.github.io/bloguh/tags/cv.html</link>
+      <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/tags/cv.html</guid>
       <description></description>
     </item>
     
@@ -30,11 +39,11 @@
     </item>
     
     <item>
-      <title>Cv</title>
-      <link>http://amoshyc.github.io/bloguh/tags/cv.html</link>
-      <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
+      <title>Email</title>
+      <link>http://amoshyc.github.io/bloguh/tags/email.html</link>
+      <pubDate>Thu, 22 Feb 2018 17:32:32 +0800</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/tags/cv.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/tags/email.html</guid>
       <description></description>
     </item>
     
@@ -53,6 +62,15 @@
       <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
       
       <guid>http://amoshyc.github.io/bloguh/tags/github.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gmail</title>
+      <link>http://amoshyc.github.io/bloguh/tags/gmail.html</link>
+      <pubDate>Thu, 22 Feb 2018 17:32:32 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/tags/gmail.html</guid>
       <description></description>
     </item>
     
@@ -84,11 +102,20 @@
     </item>
     
     <item>
-      <title>Nthu</title>
+      <title>NTHU</title>
       <link>http://amoshyc.github.io/bloguh/tags/nthu.html</link>
       <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
       
       <guid>http://amoshyc.github.io/bloguh/tags/nthu.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://amoshyc.github.io/bloguh/tags/python.html</link>
+      <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/tags/python.html</guid>
       <description></description>
     </item>
     
@@ -111,7 +138,25 @@
     </item>
     
     <item>
-      <title>Tnfsh</title>
+      <title>Smtp</title>
+      <link>http://amoshyc.github.io/bloguh/tags/smtp.html</link>
+      <pubDate>Thu, 22 Feb 2018 17:32:32 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/tags/smtp.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smtplib</title>
+      <link>http://amoshyc.github.io/bloguh/tags/smtplib.html</link>
+      <pubDate>Thu, 22 Feb 2018 17:32:32 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/tags/smtplib.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TNFSH</title>
       <link>http://amoshyc.github.io/bloguh/tags/tnfsh.html</link>
       <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
       

@@ -1,9 +1,8 @@
-baseURL = "http://amoshyc.github.io/bloguh/"
+baseURL = "http://amoshyc.github.io/bloguh"
 languageCode = "en-us"
 title = "Blog"
 theme = "zmd"
 publishDir = "docs"
-
 FootnoteReturnLinkContents = "↩"
-
 uglyurls = true
+preserveTaxonomyNames = true
