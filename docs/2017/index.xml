@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Blog</title>
-    <link>http://amoshyc.github.io/bloguh/posts.html</link>
-    <description>Recent content in Posts on Blog</description>
+    <title>2017s on Blog</title>
+    <link>http://amoshyc.github.io/bloguh/2017.html</link>
+    <description>Recent content in 2017s on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2018 14:48:22 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 Dec 2017 13:55:37 +0800</lastBuildDate>
     
-	<atom:link href="http://amoshyc.github.io/bloguh/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://amoshyc.github.io/bloguh/2017/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Install Matlab on Fedora 25</title>
-      <link>http://amoshyc.github.io/bloguh/2018/install-matlab-on-fedora-25.html</link>
-      <pubDate>Thu, 22 Feb 2018 14:48:22 +0800</pubDate>
-      
-      <guid>http://amoshyc.github.io/bloguh/2018/install-matlab-on-fedora-25.html</guid>
-      <description>Introduction 學校部份課堂會需要使用 Matlab，包含 Computer Vision, Machine Learning, etc。因為我電腦是裝雙系統，之前 Matlab 都裝在 Windows 下，並在 Windows 下使用，但實在覺得切換系統太麻煩了，而且針對一份作業我都是先用 Python 寫一個版本再用 Matlab 寫，當結果不一致時得不斷切換系統來 debug，太花時間。於是我決定裝 Matlab 裝到 Fedora 下，我就可以整天都待在 Fedora 上了。
-Installation  下載 linux 版的 Matlab, network.lic 跟說明文件，學校一般都有提供。   Mount 該 iso 檔。這裡你有兩種方法，一個是傳統地用 mount 指令，另一個是在 Nautilus 中，直接在 iso 上點兩下（預設是用 Disk Image Mounter 開啟）。這裡使用第二種方法。這時可以從 Other locations 中看到 Matlab 被 mount 了。   開啟 Terminal，cd 到 /run/media/&amp;lt;user&amp;gt;/MATLAB_R2016A/ （這是預設 mount 的位置），執行 ./install。注意這裡不要加 sudo （加了會失敗，尚不清楚原因）。之後 matlab 安裝視窗就會出現。照著安裝步驟走即可。 但因為沒給 sudo 權限，無法安裝到 /usr/local/ 等位置，所以我安裝到 ~/Matlab。  Desktop Application 不想每次都從 command line 開啟，可以從 這裡 下載兩個檔案，並將：</description>
-    </item>
     
     <item>
       <title>Markdown Cheatsheet</title>
@@ -36,10 +26,10 @@ conda create -n venv python=3.6 source activate venv  Block Quote  Block Quote �
     
     <item>
       <title></title>
-      <link>http://amoshyc.github.io/bloguh/1.html</link>
+      <link>http://amoshyc.github.io/bloguh/2017/markdown-cheatsheet-notebook.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://amoshyc.github.io/bloguh/1.html</guid>
+      <guid>http://amoshyc.github.io/bloguh/2017/markdown-cheatsheet-notebook.html</guid>
       <description>temp  /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
     </item>
     
