@@ -1,7 +1,7 @@
 ---
 title: "Markdown Cheatsheet"
 date: 2017-12-09T13:55:37+08:00
-categories: ["cheatsheet"]
+categories: ["Cheatsheet"]
 tags: ["markdown", "cheatsheet"]
 toc: true
 math: true

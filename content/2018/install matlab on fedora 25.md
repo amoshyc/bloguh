@@ -1,7 +1,7 @@
 ---
 title: "Install Matlab on Fedora 25"
 date: 2018-02-22T14:48:22+08:00
-categories: ["fedora", "matlab"]
+categories: ["Fedora", "Matlab"]
 tags: ["fedora", "matlab", "r2016a", "imshow"]
 toc: true
 math: false
