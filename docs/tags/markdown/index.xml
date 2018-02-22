@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Local File test</title>
-      <link>http://amoshyc.github.io/bloguh/2017/local-file-test.html</link>
-      <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>
-      
-      <guid>http://amoshyc.github.io/bloguh/2017/local-file-test.html</guid>
-      <description> Jupyter Notebook function notebook_onload(obj) { var bg = window.getComputedStyle(document.body, null)[&#39;background-color&#39;] obj.style.height = obj.contentDocument.body.scrollHeight + &#39;px&#39;; obj.contentDocument.body.style.backgroundColor = bg; }    Image </description>
-    </item>
-    
-    <item>
       <title>Markdown Cheatsheet</title>
       <link>http://amoshyc.github.io/bloguh/2017/markdown-cheatsheet.html</link>
       <pubDate>Sat, 09 Dec 2017 13:55:37 +0800</pubDate>

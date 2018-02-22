@@ -173,10 +173,10 @@ Jupyter Notebook 是非常常見的程式碼格式，易於分享並重現結果
 jupyter nbconvert --to html notebook.ipynb
 ```
 
-然後使用 shortcode:
+將產生的 html 移到與文章相同的資料夾，然後使用 shortcode:
 
 ```
-{{</* jupyter "path/to/notebook.html" */>}}
+{{</* jupyter "notebook.html" */>}}
 ```
 
 結果如下：
