@@ -13,7 +13,7 @@ math: false
 
 # 程式碼
 
-{{< highlight python "linenos=inline,noclasses=false" >}}
+{{< highlight python "linenos=table,noclasses=false" >}}
 import smtplib
 from email.mime.text import MIMEText
 

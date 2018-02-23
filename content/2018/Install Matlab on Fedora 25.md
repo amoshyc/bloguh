@@ -1,5 +1,5 @@
 ---
-title: "Install Matlab on Fedora 25"
+title: "在 Fedora 25 安裝 Matlab R2016a"
 date: 2018-02-22T14:48:22+08:00
 categories: ["Fedora", "Matlab"]
 tags: ["fedora", "matlab", "r2016a", "imshow"]

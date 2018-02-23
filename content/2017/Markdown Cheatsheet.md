@@ -181,10 +181,10 @@ jupyter nbconvert --to html notebook.ipynb
 
 結果如下：
 
-{{< jupyter "markdown-cheatsheet-notebook.html" >}}
+{{< jupyter "Markdown-Cheatsheet-Notebook.html" >}}
 
 {{% admonition title="Warning!" color="red" %}}
-檔名中的空格會被換成 `-`
+檔名中的空格要換成 `-`
 {{% /admonition %}}
 
 

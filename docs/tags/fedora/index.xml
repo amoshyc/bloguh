@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fedora on Blog</title>
+    <title>Fedora on Yu-Cheng Huang</title>
     <link>http://amoshyc.github.io/bloguh/tags/fedora.html</link>
-    <description>Recent content in Fedora on Blog</description>
+    <description>Recent content in Fedora on Yu-Cheng Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Feb 2018 14:48:22 +0800</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Install Matlab on Fedora 25</title>
+      <title>在 Fedora 25 安裝 Matlab R2016a</title>
       <link>http://amoshyc.github.io/bloguh/2018/install-matlab-on-fedora-25.html</link>
       <pubDate>Thu, 22 Feb 2018 14:48:22 +0800</pubDate>
       

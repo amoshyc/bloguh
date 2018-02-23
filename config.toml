@@ -1,6 +1,6 @@
 baseURL = "http://amoshyc.github.io/bloguh"
 languageCode = "en-us"
-title = "Blog"
+title = "Yu-Cheng Huang"
 theme = "zmd"
 publishDir = "docs"
 FootnoteReturnLinkContents = "↩"
