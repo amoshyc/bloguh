@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Yu-Cheng Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Feb 2018 11:34:06 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 03 Mar 2018 15:46:53 +0800</lastBuildDate>
     
 	<atom:link href="http://amoshyc.github.io/bloguh/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2d</title>
+      <link>http://amoshyc.github.io/bloguh/tags/2d.html</link>
+      <pubDate>Sat, 03 Mar 2018 15:46:53 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/tags/2d.html</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bash</title>
@@ -75,6 +84,15 @@
     </item>
     
     <item>
+      <title>Gaussian</title>
+      <link>http://amoshyc.github.io/bloguh/tags/gaussian.html</link>
+      <pubDate>Sat, 03 Mar 2018 15:46:53 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/tags/gaussian.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Github</title>
       <link>http://amoshyc.github.io/bloguh/tags/github.html</link>
       <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
@@ -134,6 +152,24 @@
       <pubDate>Thu, 22 Feb 2018 11:57:18 +0800</pubDate>
       
       <guid>http://amoshyc.github.io/bloguh/tags/nthu.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Normal</title>
+      <link>http://amoshyc.github.io/bloguh/tags/normal.html</link>
+      <pubDate>Sat, 03 Mar 2018 15:46:53 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/tags/normal.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numpy</title>
+      <link>http://amoshyc.github.io/bloguh/tags/numpy.html</link>
+      <pubDate>Sat, 03 Mar 2018 15:46:53 +0800</pubDate>
+      
+      <guid>http://amoshyc.github.io/bloguh/tags/numpy.html</guid>
       <description></description>
     </item>
     

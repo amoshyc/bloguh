@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://amoshyc.github.io/bloguh/2018/2d-gaussian-distribution-in-numpy.html</loc>
+    <lastmod>2018-03-03T15:46:53+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://amoshyc.github.io/bloguh/2018/syntax-highlighting-of-bash.html</loc>
     <lastmod>2018-02-23T11:34:06+08:00</lastmod>
   </url>
@@ -44,7 +49,13 @@
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/2018.html</loc>
-    <lastmod>2018-02-23T11:34:06+08:00</lastmod>
+    <lastmod>2018-03-03T15:46:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/2d.html</loc>
+    <lastmod>2018-03-03T15:46:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -85,13 +96,13 @@
   </url>
   
   <url>
-    <loc>http://amoshyc.github.io/bloguh/categories/cheatsheet.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/tags/cheatsheet.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://amoshyc.github.io/bloguh/tags/cheatsheet.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/categories/cheatsheet.html</loc>
     <lastmod>2017-12-09T13:55:37+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -109,14 +120,20 @@
   </url>
   
   <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/fedora.html</loc>
+    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://amoshyc.github.io/bloguh/categories/fedora.html</loc>
     <lastmod>2018-02-22T14:48:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://amoshyc.github.io/bloguh/tags/fedora.html</loc>
-    <lastmod>2018-02-22T14:48:22+08:00</lastmod>
+    <loc>http://amoshyc.github.io/bloguh/tags/gaussian.html</loc>
+    <lastmod>2018-03-03T15:46:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,13 +174,13 @@
   </url>
   
   <url>
-    <loc>http://amoshyc.github.io/bloguh/categories/matlab.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/tags/matlab.html</loc>
     <lastmod>2018-02-22T14:48:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://amoshyc.github.io/bloguh/tags/matlab.html</loc>
+    <loc>http://amoshyc.github.io/bloguh/categories/matlab.html</loc>
     <lastmod>2018-02-22T14:48:22+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -175,13 +192,25 @@
   </url>
   
   <url>
-    <loc>http://amoshyc.github.io/bloguh/categories/python.html</loc>
-    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
+    <loc>http://amoshyc.github.io/bloguh/tags/normal.html</loc>
+    <lastmod>2018-03-03T15:46:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/tags/numpy.html</loc>
+    <lastmod>2018-03-03T15:46:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/tags/python.html</loc>
+    <lastmod>2018-02-22T17:32:32+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://amoshyc.github.io/bloguh/categories/python.html</loc>
     <lastmod>2018-02-22T17:32:32+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -205,6 +234,12 @@
   </url>
   
   <url>
+    <loc>http://amoshyc.github.io/bloguh/categories/snippet.html</loc>
+    <lastmod>2018-03-03T15:46:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://amoshyc.github.io/bloguh/tags/syntax-hightlight.html</loc>
     <lastmod>2018-02-23T11:34:06+08:00</lastmod>
     <priority>0</priority>
@@ -218,13 +253,13 @@
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/tags.html</loc>
-    <lastmod>2018-02-23T11:34:06+08:00</lastmod>
+    <lastmod>2018-03-03T15:46:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://amoshyc.github.io/bloguh/</loc>
-    <lastmod>2018-02-23T11:34:06+08:00</lastmod>
+    <lastmod>2018-03-03T15:46:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
