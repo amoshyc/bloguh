@@ -16,9 +16,13 @@ math: true
 
 # 實作原理
 
-二維高斯分佈就是兩個一維高斯分佈取外積。於是我分別對 row 與 col 各生成一個高斯分佈，函數 domain 為 $$ [-3sigma, +3sigma] $$，共 $$ 6sigma + 1 $$ 個值。然後將這兩個分佈使用 `np.outer` 即為所求。
+二維高斯分佈就是兩個一維高斯分佈取外積。於是我分別對 row 與 col 各生成一個高斯分佈，函數 domain 為 $$ [-3sigma, +3sigma] $$，，因為是整數域，共 $$ 6sigma + 1 $$ 個值。然後將這兩個分佈使用 `np.outer` 即為所求。
 
 # 程式碼
+
+{{% admonition title="Hint!" color="blue" %}}
+此函式不支援 double 型態的 mu 與 sigma！
+{{% /admonition %}}
 
 {{< highlight python "linenos=inline,noclasses=false" >}}
 def gaussian2d(mu, sigma, shape=None):
@@ -28,7 +32,7 @@ def gaussian2d(mu, sigma, shape=None):
     --------------
     mu: tuple of int
         Coordinates of center, (mu_r, mu_c)
-    sigma: tuple of float
+    sigma: tuple of int
         Intensity of the distribution, (sigma_r, sigma_c)
     shape: tuple of int, optional
         Image shape which is used to determine the maximum extent
@@ -40,6 +44,10 @@ def gaussian2d(mu, sigma, shape=None):
         Indices of pixels that belong to the distribution
     gaussian: (N, ) ndarray of float
         Values of corresponding position. Ranges from 0.0 to 1.0.
+
+    .. warning::
+
+        This function does NOT support mu, sigma as double.
     """
     mu_r, mu_c = mu
     sigma_r, sigma_c = sigma
